@@ -98,6 +98,11 @@ public class Car
 		return sensors;
 	}
 
+	public final Sensor getSensor(int index)
+	{
+		return sensors[index];
+	}
+
 	public final Vec3D getCenter()
 	{
 		return center;
